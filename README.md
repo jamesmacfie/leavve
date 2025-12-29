@@ -164,7 +164,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](Leavve/LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 Original menubar template: Copyright (c) 2022 Steven J. Selcuk
 
