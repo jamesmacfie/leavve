@@ -41,9 +41,17 @@ struct EmployeeDetailView: View {
                 Spacer()
 
                 if let person = selectedPerson {
-                    Text(person.fullName)
-                        .font(.system(size: 16, design: .monospaced))
-                        .fontWeight(.medium)
+                    HStack(spacing: 6) {
+                        Image("menubar-icon")
+                            .resizable()
+                            .renderingMode(.template)
+                            .frame(width: 14, height: 14)
+                            .foregroundColor(.primary)
+
+                        Text(person.fullName)
+                            .font(.system(size: 16, design: .monospaced))
+                            .fontWeight(.medium)
+                    }
                 }
 
                 Spacer()

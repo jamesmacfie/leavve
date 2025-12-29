@@ -16,11 +16,6 @@ struct AboutView: View {
         VStack(alignment: .center, spacing: 10) {
             Spacer()
             VStack(alignment: .center) {
-                Image("Barmaid")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 64, height: 64)
-
                 Text("Leavve")
                     .bold()
                     .font(.title)

@@ -41,9 +41,17 @@ struct SettingsView: View {
 
                 Spacer()
 
-                Text("Settings")
-                    .font(.system(size: 16, design: .monospaced))
-                    .fontWeight(.medium)
+                HStack(spacing: 6) {
+                    Image("menubar-icon")
+                        .resizable()
+                        .renderingMode(.template)
+                        .frame(width: 14, height: 14)
+                        .foregroundColor(.primary)
+
+                    Text("Settings")
+                        .font(.system(size: 16, design: .monospaced))
+                        .fontWeight(.medium)
+                }
 
                 Spacer()
             }
@@ -94,35 +102,35 @@ struct SettingsView: View {
                             }
 
                         if autoRefreshEnabled {
-                            HStack {
+                            HStack(spacing: 8) {
                                 Text("Time:")
-                                    .font(.caption)
+                                    .font(.body)
 
                                 Picker("Hour", selection: $refreshHour) {
                                     ForEach(0..<24, id: \.self) { hour in
                                         Text(String(format: "%02d", hour)).tag(hour)
                                     }
                                 }
-                                .frame(width: 60)
+                                .frame(width: 120)
                                 .onChange(of: refreshHour) { newValue in
                                     let refreshTime = AppSettings.RefreshTime(hour: newValue, minute: refreshMinute)
                                     appState.updateAutoRefreshTime(refreshTime)
                                 }
 
                                 Text(":")
+                                    .font(.body)
 
                                 Picker("Minute", selection: $refreshMinute) {
                                     ForEach([0, 15, 30, 45], id: \.self) { minute in
                                         Text(String(format: "%02d", minute)).tag(minute)
                                     }
                                 }
-                                .frame(width: 60)
+                                .frame(width: 120)
                                 .onChange(of: refreshMinute) { newValue in
                                     let refreshTime = AppSettings.RefreshTime(hour: refreshHour, minute: newValue)
                                     appState.updateAutoRefreshTime(refreshTime)
                                 }
                             }
-                            .font(.caption)
                         }
                     }
                     .padding(.horizontal, 16)

@@ -1,22 +1,17 @@
+# Leavve
 
-<p align="center">
-<img src="https://imgur.com/aWZmQAM.gif" width="400"/>
-</p>
+## macOS menubar app for tracking employee leave from the Runn API
 
-# 🍸 Barmaid
+## Features
 
-## SwiftUI ready macOS menubar app boilerplate. Just add water 💧 Save hours
+- View who's on leave today
+- Browse all employees and their upcoming time-offs
+- Configure Runn API credentials
+- Auto-sync at scheduled time (default 7:00 AM)
+- Light and dark mode support
 
-## What's in the bar?
+## How to Build
 
-- SwiftUI ready 
-- Popover based
-- Right click NSMenu
-- About Window
-
-## How to?
-
-- Clone with CLI or download zip
-- Rename project as you desired
-- Keep building 💪🏻
-
+1. Open `Leavve.xcodeproj` in Xcode
+2. Add your Runn API key in the Settings page
+3. Build and run (⌘R)

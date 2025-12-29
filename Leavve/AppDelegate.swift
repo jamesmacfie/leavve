@@ -30,11 +30,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         if let button = statusBarItem.button {
             // Set menubar icon
-            button.image = NSImage(named: "menubar-icon")
-            // Set menubar text
-            button.title = "Leavve"
-            // Re-arrange status bar icon position
-            button.imagePosition = NSControl.ImagePosition.imageLeft
+            if let icon = NSImage(named: "menubar-icon") {
+                icon.isTemplate = true
+                icon.size = NSSize(width: 18, height: 18)
+                button.image = icon
+            }
             // Set font
             button.font = NSFont.monospacedDigitSystemFont(ofSize: 12.0, weight: NSFont.Weight.light)
             // Register click action

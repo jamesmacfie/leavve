@@ -36,7 +36,7 @@ struct AppSettings: Codable {
     static var `default`: AppSettings {
         AppSettings(
             apiKey: "",
-            apiServer: .us,
+            apiServer: .eu,
             visibleEmployeeIds: [],
             autoRefreshTime: RefreshTime(hour: 7, minute: 0),
             lastSyncDate: nil

@@ -14,6 +14,12 @@ struct HomeView: View {
             VStack(spacing: 0) {
                 // Header
                 HStack {
+                    Image("menubar-icon")
+                        .resizable()
+                        .renderingMode(.template)
+                        .frame(width: 16, height: 16)
+                        .foregroundColor(.primary)
+
                     Text("Leavve")
                         .font(.system(size: 20, design: .monospaced))
                         .fontWeight(.medium)
