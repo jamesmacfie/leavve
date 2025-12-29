@@ -1,10 +1,3 @@
-//
-//  PagerView.swift
-//  Barmaid
-//
-//  Created by Steven J. Selcuk on 2.05.2022.
-//
-
 import SwiftUI
 
 struct PagerView<Content: View>: View {

@@ -1,10 +1,3 @@
-//
-//  AppDelegate+Functions.swift
-//  Barmaid
-//
-//  Created by Steven J. Selcuk on 2.05.2022.
-//
-
 import Cocoa
 
 extension AppDelegate {
@@ -21,10 +14,6 @@ extension AppDelegate {
         popover.close()
     }
 
-    @objc func doStuff() {
-        print("Do stuff")
-    }
-    
     @objc func togglePopover(_ sender: AnyObject?) {
         let event = NSApp.currentEvent!
 
@@ -52,11 +41,10 @@ extension AppDelegate {
             }
         } else if event.type == NSEvent.EventType.rightMouseUp {
             let menu = NSMenu()
-            menu.addItem(withTitle: "About Barmaid", action: #selector(openAbout), keyEquivalent: "c")
-            menu.addItem(withTitle: "Do stuff", action: #selector(doStuff), keyEquivalent: "c")
+            menu.addItem(withTitle: "About Leavve", action: #selector(openAbout), keyEquivalent: "")
             menu.addItem(NSMenuItem.separator())
-            menu.addItem(NSMenuItem(title: "Barmaid v1.0", action: nil, keyEquivalent: ""))
-            menu.addItem(withTitle: "Quit App", action: #selector(quit), keyEquivalent: "q")
+            menu.addItem(NSMenuItem(title: "Leavve v1.0", action: nil, keyEquivalent: ""))
+            menu.addItem(withTitle: "Quit", action: #selector(quit), keyEquivalent: "q")
 
             statusBarItem.menu = menu
             statusBarItem.button?.performClick(nil)

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Barmaid
-//
-//  Created by Steven J. Selcuk on 2.05.2022.
-//
-
 import Cocoa
 import SwiftUI
 @main
@@ -16,6 +9,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // Clear default menu to suppress menu inconsistency warnings
+        NSApp.mainMenu = NSMenu()
+
         statusBarItem = NSStatusBar.system.statusItem(withLength: CGFloat(NSStatusItem.variableLength))
         invisibleWindow.backgroundColor = .red
         invisibleWindow.alphaValue = 0
@@ -36,7 +32,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             // Set menubar icon
             button.image = NSImage(named: "menubar-icon")
             // Set menubar text
-            button.title = "Barmaid"
+            button.title = "Leavve"
             // Re-arrange status bar icon position
             button.imagePosition = NSControl.ImagePosition.imageLeft
             // Set font

@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063786282F02339A0059C1F5 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786252F02339A0059C1F5 /* EmployeeDetailView.swift */; };
+		063786292F02339A0059C1F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786262F02339A0059C1F5 /* HomeView.swift */; };
+		0637862A2F02339A0059C1F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786272F02339A0059C1F5 /* SettingsView.swift */; };
+		063786312F0233A40059C1F5 /* HolidayGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0637862C2F0233A40059C1F5 /* HolidayGroup.swift */; };
+		063786322F0233A40059C1F5 /* TimeOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0637862F2F0233A40059C1F5 /* TimeOff.swift */; };
+		063786332F0233A40059C1F5 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0637862B2F0233A40059C1F5 /* AppSettings.swift */; };
+		063786342F0233A40059C1F5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0637862D2F0233A40059C1F5 /* Person.swift */; };
+		063786352F0233A40059C1F5 /* RunnAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0637862E2F0233A40059C1F5 /* RunnAPIResponse.swift */; };
+		0637863B2F0233AE0059C1F5 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786382F0233AE0059C1F5 /* PagerView.swift */; };
+		0637863C2F0233AE0059C1F5 /* TimeOffCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786392F0233AE0059C1F5 /* TimeOffCard.swift */; };
+		0637863D2F0233AE0059C1F5 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786372F0233AE0059C1F5 /* LoadingOverlay.swift */; };
+		0637863E2F0233AE0059C1F5 /* EmployeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786362F0233AE0059C1F5 /* EmployeeRow.swift */; };
+		063786422F0233B80059C1F5 /* TimeOffCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786412F0233B80059C1F5 /* TimeOffCard.swift */; };
+		063786432F0233B80059C1F5 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786402F0233B80059C1F5 /* LoadingOverlay.swift */; };
+		063786442F0233B80059C1F5 /* EmployeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0637863F2F0233B80059C1F5 /* EmployeeRow.swift */; };
+		063786472F0233C40059C1F5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786452F0233C40059C1F5 /* AppState.swift */; };
+		0637864B2F0233E60059C1F5 /* RunnAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786482F0233E60059C1F5 /* RunnAPIService.swift */; };
+		0637864C2F0233E60059C1F5 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063786492F0233E60059C1F5 /* StorageService.swift */; };
 		0A70B58A2820359500583E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70B5892820359500583E37 /* AppDelegate.swift */; };
 		0A70B58E2820359500583E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A70B58D2820359500583E37 /* Assets.xcassets */; };
 		0A70B5912820359500583E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A70B58F2820359500583E37 /* Main.storyboard */; };
@@ -17,6 +35,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063786252F02339A0059C1F5 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
+		063786262F02339A0059C1F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		063786272F02339A0059C1F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0637862B2F0233A40059C1F5 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		0637862C2F0233A40059C1F5 /* HolidayGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayGroup.swift; sourceTree = "<group>"; };
+		0637862D2F0233A40059C1F5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0637862E2F0233A40059C1F5 /* RunnAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnAPIResponse.swift; sourceTree = "<group>"; };
+		0637862F2F0233A40059C1F5 /* TimeOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOff.swift; sourceTree = "<group>"; };
+		063786362F0233AE0059C1F5 /* EmployeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRow.swift; sourceTree = "<group>"; };
+		063786372F0233AE0059C1F5 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		063786382F0233AE0059C1F5 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		063786392F0233AE0059C1F5 /* TimeOffCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOffCard.swift; sourceTree = "<group>"; };
+		0637863F2F0233B80059C1F5 /* EmployeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRow.swift; sourceTree = "<group>"; };
+		063786402F0233B80059C1F5 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		063786412F0233B80059C1F5 /* TimeOffCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOffCard.swift; sourceTree = "<group>"; };
+		063786452F0233C40059C1F5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		063786482F0233E60059C1F5 /* RunnAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnAPIService.swift; sourceTree = "<group>"; };
+		063786492F0233E60059C1F5 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		0A70B5862820359500583E37 /* Barmaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barmaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A70B5892820359500583E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A70B58D2820359500583E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +76,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063786302F0233A40059C1F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0637862B2F0233A40059C1F5 /* AppSettings.swift */,
+				0637862C2F0233A40059C1F5 /* HolidayGroup.swift */,
+				0637862D2F0233A40059C1F5 /* Person.swift */,
+				0637862E2F0233A40059C1F5 /* RunnAPIResponse.swift */,
+				0637862F2F0233A40059C1F5 /* TimeOff.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0637863A2F0233AE0059C1F5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				063786362F0233AE0059C1F5 /* EmployeeRow.swift */,
+				063786372F0233AE0059C1F5 /* LoadingOverlay.swift */,
+				063786382F0233AE0059C1F5 /* PagerView.swift */,
+				063786392F0233AE0059C1F5 /* TimeOffCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		063786462F0233C40059C1F5 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				063786452F0233C40059C1F5 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		0637864A2F0233E60059C1F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				063786482F0233E60059C1F5 /* RunnAPIService.swift */,
+				063786492F0233E60059C1F5 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		0A70B57D2820359500583E37 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +135,10 @@
 		0A70B5882820359500583E37 /* Barmaid */ = {
 			isa = PBXGroup;
 			children = (
+				0637864A2F0233E60059C1F5 /* Services */,
+				063786462F0233C40059C1F5 /* State */,
+				0637863A2F0233AE0059C1F5 /* Components */,
+				063786302F0233A40059C1F5 /* Models */,
 				0A70B58D2820359500583E37 /* Assets.xcassets */,
 				0A70B5892820359500583E37 /* AppDelegate.swift */,
 				0A70B5982820364000583E37 /* AppDelegate+Functions.swift */,
@@ -72,6 +152,9 @@
 		0A70B59A2820367200583E37 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				063786252F02339A0059C1F5 /* EmployeeDetailView.swift */,
+				063786262F02339A0059C1F5 /* HomeView.swift */,
+				063786272F02339A0059C1F5 /* SettingsView.swift */,
 				0A70B59B2820367C00583E37 /* Main.swift */,
 				0A70B59E28203D3600583E37 /* About.swift */,
 			);
@@ -91,6 +174,9 @@
 		0ACCFC7B28204300007225BF /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				0637863F2F0233B80059C1F5 /* EmployeeRow.swift */,
+				063786402F0233B80059C1F5 /* LoadingOverlay.swift */,
+				063786412F0233B80059C1F5 /* TimeOffCard.swift */,
 				0ACCFC7C28204314007225BF /* PagerView.swift */,
 			);
 			path = Components;
@@ -167,8 +253,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A70B5992820364000583E37 /* AppDelegate+Functions.swift in Sources */,
+				063786282F02339A0059C1F5 /* EmployeeDetailView.swift in Sources */,
+				063786292F02339A0059C1F5 /* HomeView.swift in Sources */,
+				0637862A2F02339A0059C1F5 /* SettingsView.swift in Sources */,
 				0A70B59F28203D3600583E37 /* About.swift in Sources */,
 				0A70B59C2820367C00583E37 /* Main.swift in Sources */,
+				063786312F0233A40059C1F5 /* HolidayGroup.swift in Sources */,
+				063786322F0233A40059C1F5 /* TimeOff.swift in Sources */,
+				063786332F0233A40059C1F5 /* AppSettings.swift in Sources */,
+				063786472F0233C40059C1F5 /* AppState.swift in Sources */,
+				0637864B2F0233E60059C1F5 /* RunnAPIService.swift in Sources */,
+				0637864C2F0233E60059C1F5 /* StorageService.swift in Sources */,
+				063786342F0233A40059C1F5 /* Person.swift in Sources */,
+				063786352F0233A40059C1F5 /* RunnAPIResponse.swift in Sources */,
+				0637863B2F0233AE0059C1F5 /* PagerView.swift in Sources */,
+				0637863C2F0233AE0059C1F5 /* TimeOffCard.swift in Sources */,
+				063786422F0233B80059C1F5 /* TimeOffCard.swift in Sources */,
+				063786432F0233B80059C1F5 /* LoadingOverlay.swift in Sources */,
+				063786442F0233B80059C1F5 /* EmployeeRow.swift in Sources */,
+				0637863D2F0233AE0059C1F5 /* LoadingOverlay.swift in Sources */,
+				0637863E2F0233AE0059C1F5 /* EmployeeRow.swift in Sources */,
 				0ACCFC7D28204314007225BF /* PagerView.swift in Sources */,
 				0A70B58A2820359500583E37 /* AppDelegate.swift in Sources */,
 			);
